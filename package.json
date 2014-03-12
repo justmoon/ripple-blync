@@ -1,0 +1,27 @@
+{
+  "name": "ripple-blync",
+  "version": "1.0.0",
+  "description": "Ripple monitor that makes a Blynclight blink",
+  "main": "app.js",
+  "dependencies": {
+    "blync": "~1.0.0",
+    "ripple-lib": "~0.7.34"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justmoon/ripple-blync.git"
+  },
+  "keywords": [
+    "ripple"
+  ],
+  "author": "Stefan Thomas <justmoon@members.fsf.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justmoon/ripple-blync/issues"
+  },
+  "homepage": "https://github.com/justmoon/ripple-blync"
+}
