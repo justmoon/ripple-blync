@@ -31,8 +31,8 @@ remote.connect(function() {
   remote.requestSubscribe(['transactions_proposed']).request();
   remote.on('transaction', function (msg) {
     if (msg.validated) return;
-    console.log('TRANSACTION', msg.tx_json.TransactionType);
-    switch (msg.tx_json.TransactionType) {
+    console.log('TRANSACTION', msg.transaction.TransactionType);
+    switch (msg.transaction.TransactionType) {
     case 'Payment':
       device.flashColor('green');
       break;
